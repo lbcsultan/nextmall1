@@ -7,7 +7,7 @@ export default function ProductItem({ product }) {
     <div className="card">
       <Link href={`/product/${product.slug}`}>
         <a>
-          <Image
+          <img
             src={product.image}
             alt={product.name}
             className="rounded shadow"
